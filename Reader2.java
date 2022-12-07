@@ -15,7 +15,7 @@ public class Reader2 {
         } catch (IOException problems) { // initialization catch construction and names it "problems".
             // catch is construction which handle code and check errors.
 
-            System.out.println(problems.getMessage()); // if problems exists, they will show to us in console.
+            System.out.println(problems.getMessage()); // if exists any errors, they will show to us in console.
         }
     }
 }
