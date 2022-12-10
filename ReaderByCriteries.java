@@ -4,7 +4,7 @@ import java.io.IOException;
 
 public class ReaderByCriteries {
 public static void main(String[] args) {
-    String csvFile = "C:/Javapars/employees.csv";
+    String csvFile = "C:/Javapars/employees.csv"; // path to file, which we need  to read.
     String line = "";
     String csvSplitBy = ",";
     try (BufferedReader bruh = new BufferedReader(new FileReader(csvFile))) {
