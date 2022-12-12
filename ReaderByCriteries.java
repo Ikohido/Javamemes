@@ -11,7 +11,7 @@ public class ReaderByCriteries {
         String csvSplitBy = ",";
         String values = (" id, " + "name, " + "surname, " + "city, " + "birthday, " + "salary, " + "profession, "
                 + "fired ");
-ArrayList Values = new ArrayList();
+        ArrayList Values = new ArrayList();
 
         Values.add(values);
         System.out.println(Values);
